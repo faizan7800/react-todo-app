@@ -1,0 +1,28 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --transparentBlack: rgba(0,0,0,0.85);
+  --sunsetOrange: #FF4F5A;
+  --Tangaroa: #1A2E35;
+  --Gainsboro: #E1E1E1;
+  --greenTeal: #22C55E;
+  --Gray: #6B7498;
+  --BlueColor: #2196F3;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    width: 95%;
+    min-height: 100vh;
+    margin: auto;
+    padding: 4rem 1.5rem;
+}
+
+*{
+    font-family: "Poppins", sans-serif;
+}
